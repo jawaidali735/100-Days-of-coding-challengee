@@ -10,5 +10,12 @@ function convertNumber(str) {
     return parseFloat(str);
 }
 ;
-console.log(convertNumber("123"));
-console.log(convertNumber("123.123"));
+console.log(convertNumber("123")); // result: 123
+console.log(convertNumber("123.123")); // result: 123.123
+//Question: 90
+function checkNumberOrNot(val) {
+    return isNaN(val);
+}
+;
+console.log(checkNumberOrNot("number")); // true
+console.log(checkNumberOrNot(123)); // false

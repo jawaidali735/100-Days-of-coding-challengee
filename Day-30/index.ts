@@ -1,6 +1,6 @@
 //Question: 88
 
-function nearestNumber(num:any){
+function nearestNumber(num:number){
     return Math.round(num)
 };
 
@@ -25,5 +25,5 @@ function checkNumberOrNot(val:any):boolean {
 };
 
 console.log(checkNumberOrNot("number")); // true
-console.log(checkNumberOrNot("number")); // false
+console.log(checkNumberOrNot(123)); // false
 
